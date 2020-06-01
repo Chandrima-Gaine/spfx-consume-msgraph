@@ -62,8 +62,8 @@ export default class ConsumeMsGraph extends React.Component<IConsumeMsGraphProps
                 <p className={ styles.description }>Click the button to get User details...</p>
                 <p className={ styles.form }>
                   <PrimaryButton 
-                    text='Search' 
-                    title='Search' 
+                    text='All User Details' 
+                    title='All User Details' 
                     onClick={ this.getUserDetails } 
                   />
                 </p>
