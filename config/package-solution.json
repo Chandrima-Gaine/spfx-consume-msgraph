@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-consume-msgraph-client-side-solution",
+    "id": "5c9c15c5-231e-4b2b-8b5c-70ceb89e04c0",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "webApiPermissionRequests": [  
+      {  
+        "resource": "Microsoft Graph",  
+        "scope": "User.ReadBasic.All"  
+      }  
+    ] 
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-consume-msgraph.sppkg"
+  }
+}
